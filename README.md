@@ -1,183 +1,138 @@
-📊 UPI Transactions Data Analysis (Power BI)
-📌 Project Overview
+# 📊 UPI Transactions Data Analysis (Power BI)
 
-This project focuses on analyzing UPI (Unified Payments Interface) transaction data using Microsoft Power BI.
-The objective is to convert raw transaction data into a clean, interactive, and insight-driven dashboard that helps understand transaction behavior, trends, and balance movement.
+## 📌 Project Overview
+This project focuses on analyzing **UPI (Unified Payments Interface) transaction data** using **Microsoft Power BI**.  
+The goal is to transform raw transaction data into a **clean, interactive, and insight-driven dashboard** that helps understand transaction behavior, trends, age-wise usage, and remaining balance patterns.
 
-This project demonstrates an end-to-end Power BI workflow — from data loading to publishing on Power BI Service.
+The project demonstrates an **end-to-end Power BI workflow**, covering data loading, cleaning, modeling, visualization, and publishing on **Power BI Service**.
 
-🎯 Project Objectives
+---
 
-Analyze UPI transaction trends over time
+## 🎯 Project Objectives
+- Analyze UPI transaction trends over time  
+- Understand **age group–wise user behavior**  
+- Identify **high-value transactions**  
+- Monitor **remaining balance patterns**  
+- Build a professional, interactive dashboard  
 
-Understand age group–wise user behavior
+---
 
-Identify high-value transactions
+## 🧰 Tools & Technologies Used
+- **Power BI Desktop**
+- **Power Query** – Data Cleaning & Profiling
+- **DAX** – Calculated Columns & Measures
+- **Power BI Service** – Publishing & Sharing
 
-Monitor remaining balance patterns
+---
 
-Build an interactive and professional dashboard
+## 📂 Dataset Information
+- **UPI Transactions Dataset** (CSV / Excel format)
 
-🧰 Tools & Technologies Used
+### Dataset Includes:
+- Transaction Date  
+- Transaction Amount  
+- Remaining Balance  
+- User Details  
+- Age  
+- Transaction Type  
+
+📌 *Dataset used strictly for learning and portfolio purposes.*
 
-Power BI Desktop
+---
 
-Power Query (Data Cleaning & Profiling)
+## ✅ Project Workflow & Implementation
 
-DAX (Calculated Columns & Measures)
+### 1️⃣ Loading Data into Power BI
+- Imported dataset into Power BI Desktop  
+- Verified and corrected data types  
+- Ensured overall data consistency  
 
-Power BI Service
+### 2️⃣ Data Profiling
+- Column quality analysis  
+- Column distribution review  
+- Column profile inspection  
+- Identification of missing and invalid values  
 
-📂 Dataset Information
+### 3️⃣ Slicer Design
+- Adjusted slicer size and positioning  
+- Improved dashboard layout  
+- Ensured smooth filtering experience  
 
-UPI Transactions dataset (CSV / Excel format)
+### 4️⃣ Slicer Formatting
+- Applied consistent formatting  
+- Improved alignment and readability  
+- Enhanced overall UI design  
 
-Includes:
+### 5️⃣ Age Group Column Creation
+- Created calculated column for **Age Groups**
+- Segmented users into meaningful age categories
+- Enabled demographic-based analysis  
 
-Transaction Date
+### 6️⃣ Line Chart Implementation
+- Visualized transaction trends over time  
+- Identified peak and low transaction periods  
+- Compared daily and monthly patterns  
 
-Transaction Amount
+### 7️⃣ Matrix Visual
+- Displayed user-level transaction details  
+- Compared transaction amount and remaining balance  
+- Enabled detailed drill-down analysis  
 
-Remaining Balance
+### 8️⃣ Syncing Slicers
+- Synced slicers across multiple report pages  
+- Maintained consistent filtering across visuals  
 
-User Details
+### 9️⃣ Conditional Formatting
+- Highlighted high-value transactions  
+- Flagged low remaining balances  
+- Improved insight visibility using visual cues  
 
-Age
+---
 
-Transaction Type
+## 🔖 Bookmarks Implementation
 
-Dataset used strictly for learning and portfolio purposes.
+### 📌 Transaction Bookmarks
+- Created bookmarks for transaction-focused views  
+- Enabled quick navigation between insights  
 
-✅ Project Workflow & Implementation
-1️⃣ Loading Data into Power BI
+### 📌 Remaining Balance Bookmarks
+- Created dedicated views for balance analysis  
+- Improved storytelling and report flow  
 
-Imported dataset into Power BI Desktop
+---
 
-Verified data types
+## 🚀 Publishing to Power BI Service
+- Published the report to **Power BI Service**
+- Enabled online access and sharing
+- Prepared the dashboard for stakeholder review  
 
-Ensured data consistency
+---
 
-2️⃣ Data Profiling
+## 📈 Key Insights from the Dashboard
+- Monthly and daily UPI transaction trends  
+- Age group–wise transaction behavior  
+- Identification of high-value transactions  
+- Remaining balance tracking and analysis  
 
-Column quality analysis
+---
 
-Column distribution review
+## 📊 Dashboard Features
+- Interactive slicers  
+- Line charts for trend analysis  
+- Matrix visuals for detailed reporting  
+- Conditional formatting  
+- Bookmarks for storytelling  
+- Clean and professional layout  
 
-Column profile inspection
+---
 
-Identification of missing and invalid values
+## ✅ Final Outcome
+- Complete **end-to-end Power BI project**
+- Hands-on experience with:
+  - Data profiling
+  - Data modeling fundamentals
+  - Visualization best practices
+  - Business-focused dashboard design  
 
-3️⃣ Slicers Design
+This project reflects **real-world Data Analyst dashboard development skills** using Power BI.
 
-Adjusted slicer size and positioning
-
-Improved dashboard layout
-
-Ensured smooth filtering experience
-
-4️⃣ Formatting the Slicers
-
-Applied consistent formatting
-
-Improved alignment and readability
-
-Enhanced overall UI design
-
-5️⃣ Adding Page & Age Group Column
-
-Created calculated column for Age Groups
-
-Segmented users into meaningful age categories
-
-Enabled demographic-based analysis
-
-6️⃣ Adding Line Chart
-
-Visualized transaction trends over time
-
-Identified peak and low transaction periods
-
-Compared monthly and daily patterns
-
-7️⃣ Adding Matrix Visual
-
-Displayed user-level transaction details
-
-Compared transaction amount and remaining balance
-
-Enabled detailed analysis
-
-8️⃣ Syncing Slicers
-
-Synced slicers across multiple report pages
-
-Maintained consistent filtering across visuals
-
-9️⃣ Conditional Formatting
-
-Highlighted high-value transactions
-
-Flagged low remaining balances
-
-Improved data interpretation using visual cues
-
-🔖 Bookmarks Implementation
-Transaction Bookmarks
-
-Created bookmarks for transaction-focused views
-
-Enabled quick navigation between insights
-
-Remaining Balance Bookmarks
-
-Created separate bookmark views for balance analysis
-
-Enabled smooth user storytelling
-
-🚀 Publishing to Power BI Service
-
-Published the report to Power BI Service
-
-Enabled online access and report sharing
-
-Prepared dashboard for stakeholder review
-
-📈 Key Insights from Dashboard
-
-Monthly and daily UPI transaction trends
-
-Age group–wise transaction behavior
-
-High-value transaction identification
-
-Remaining balance tracking and analysis
-
-📊 Dashboard Features
-
-Interactive slicers
-
-Line charts for trend analysis
-
-Matrix visuals for detailed reporting
-
-Conditional formatting
-
-Bookmarks for storytelling
-
-Clean and professional layout
-
-✅ Final Outcome
-
-Complete end-to-end Power BI project
-
-Strong hands-on experience with:
-
-Data profiling
-
-Data modeling basics
-
-Visualization best practices
-
-Business-focused dashboard design
-
-This project reflects real-world Data Analyst dashboard development skills.
